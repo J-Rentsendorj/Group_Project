@@ -3,6 +3,8 @@
 #include "Dog.h"
 #include "Cat.h"
 #include "Pig.h"
+#include "Bunny.h"
+#include "Magikarp.h"
 #include "FileHandler.h"
 #include "PetException.h"
 
