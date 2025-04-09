@@ -20,7 +20,7 @@ int main() {
         std::cin >> choice;
 
         if (choice == 1) {
-            std::cout << "Choose a pet: 1. Dog  2. Cat  3. Dragon\n> ";
+            std::cout << "Choose a pet: 1. Dog  2. Cat  3. Pig  4. Bunny  5. Magikarp  \n> ";
             int type;
             std::cin >> type;
             std::cout << "Enter a name for your pet: ";
@@ -28,11 +28,13 @@ int main() {
 
             if (type == 1) pets.push_back(new Dog(name));
             else if (type == 2) pets.push_back(new Cat(name));
-            else if (type == 3) pets.push_back(new Dragon(name));
+            else if (type == 3) pets.push_back(new Pig(name));
+            else if (type == 4) pets.push_back(new Bunny(name));
+            else if (type == 5) pets.push_back(new Magikarp(name));
         }
         else if (choice == 2) {
             if (pets.empty()) {
-                std::cout << "You have no pets yet!\n";
+                std::cout << "You don't have any pets yet;-;\n";
                 continue;
             }
 
