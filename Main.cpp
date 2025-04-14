@@ -4,7 +4,7 @@
 #include "Cat.h"
 #include "Pig.h"
 #include "Bunny.h"
-#include "Magikarp.h"
+//#include "Magikarp.h"
 #include "FileHandler.h"
 #include "PetException.h"
 
@@ -30,7 +30,7 @@ int main() {
             else if (type == 2) pets.push_back(new Cat(name));
             else if (type == 3) pets.push_back(new Pig(name));
             else if (type == 4) pets.push_back(new Bunny(name));
-            else if (type == 5) pets.push_back(new Magikarp(name));
+            //else if (type == 5) pets.push_back(new Magikarp(name));
         }
         else if (choice == 2) {
             if (pets.empty()) {
