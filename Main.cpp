@@ -1,9 +1,9 @@
 #include <iostream>
 #include <vector>
 #include "Dog.h"
-#include "Cat.h"
-#include "Pig.h"
-#include "Bunny.h"
+//#include "Cat.h"
+//#include "Pig.h"
+//#include "Bunny.h"
 //#include "Magikarp.h"
 #include "FileHandler.h"
 #include "PetException.h"
@@ -27,9 +27,9 @@ int main() {
             std::cin >> name;
 
             if (type == 1) pets.push_back(new Dog(name));
-            else if (type == 2) pets.push_back(new Cat(name));
-            else if (type == 3) pets.push_back(new Pig(name));
-            else if (type == 4) pets.push_back(new Bunny(name));
+           // else if (type == 2) pets.push_back(new Cat(name));
+           // else if (type == 3) pets.push_back(new Pig(name));
+            //else if (type == 4) pets.push_back(new Bunny(name));
             //else if (type == 5) pets.push_back(new Magikarp(name));
         }
         else if (choice == 2) {
