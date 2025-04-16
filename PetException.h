@@ -1,0 +1,17 @@
+#ifndef PETEXCEPTION_H
+#define PETEXCEPTION_H
+
+#include <exception>
+#include <string>
+
+class PetException : public std::exception {
+    std::string message;
+
+public:
+    PetException(std::string msg) : message(msg) {}
+    const char* what() const noexcept override {
+        return message.c_str();
+    }
+};
+
+#endif
