@@ -1,3 +1,4 @@
+// Cpp file that includes the Pet header file and creates an object of the Pet class that then specifies what the functions in Pet.h actually do
 #include "Pet.h"
 #include <iostream>
 
