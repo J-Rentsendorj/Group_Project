@@ -1,3 +1,4 @@
+// Pet header file that stores the class Pet and all of its functions
 #ifndef PET_H
 #define PET_H
 
