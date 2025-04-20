@@ -1,3 +1,4 @@
+// Cpp file that includes the Cat header file and specifies what the new function and string in Cat.h do 
 #include "Cat.h"
 #include <iostream>
 
