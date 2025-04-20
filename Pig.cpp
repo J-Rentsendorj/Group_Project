@@ -1,3 +1,4 @@
+// Cpp file that includes the Pig header file and specifies what the new function and string in Pig.h do
 #include "Pig.h"
 #include <iostream>
 
