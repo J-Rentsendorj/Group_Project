@@ -1,3 +1,4 @@
+// Header file that includes the Pet header file and creates a derived class with a new function and string 
 #ifndef Pig_H
 #define Pig_H
 
