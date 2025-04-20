@@ -1,4 +1,4 @@
-// Dog header file that includes Pet.h and creates a derived class of Pet with a new function and string
+// Header file that includes Pet.h and creates a derived class of Pet with a new function and string
 #ifndef DOG_H
 #define DOG_H
 
