@@ -1,3 +1,4 @@
+// Header file that includes the Pet header file and creates a new function and string 
 #ifndef Bunny_H
 #define Bunny_H
 
