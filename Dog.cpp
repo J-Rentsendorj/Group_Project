@@ -1,3 +1,4 @@
+// Cpp file that includes the Dog header file and specifies what the new function and string in Dog.h do 
 #include "Dog.h"
 #include <iostream>
 
