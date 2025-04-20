@@ -1,3 +1,4 @@
+// Header file that includes the FileHandler and Dog header files and specifies what the functions in FileHandler.h do
 #include "FileHandler.h"
 #include "Dog.h"
 #include <fstream>
