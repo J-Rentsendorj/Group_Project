@@ -1,3 +1,4 @@
+// Cpp file that includes the Bunny header file and specifies what the new function and string in Bunny.h do
 #include "Bunny.h"
 #include <iostream>
 
