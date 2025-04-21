@@ -12,6 +12,8 @@ Welcome to the **Pet Management Game**, a console-based C++ application where yo
 7. [Code Overview](#code-overview)
 8. [Future Enhancements](#future-enhancements)
 9. [License](#license)
+10. [Contributors](#contributors)
+
 
 ## Features
 - **Adopt Pets**: Choose from four pet types (Dog, Cat, Pig, Bunny) and give them unique names.
@@ -137,7 +139,7 @@ Bunny,Fluffy,30,100
 ## License
 This project is licensed under the MIT License.
 
-## Author & Contributors
+## Contributors
 - [Aiden Braulio](https://github.com/Din0Din)
 - [Ezra Mosegui](https://github.com/EMosegui)
 - [Jinn Rentsendorj](https://github.com/J-Rentsendorj)
